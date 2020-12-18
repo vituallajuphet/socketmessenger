@@ -1,0 +1,120 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.msgDiv{ background: #cddcff; 
+    padding: 10px; 
+    border-radius: 5px; 
+    display: flex;  
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 0 14px;
+}
+.userContent{
+    width: 100%;
+    margin-left: 25px;
+    color: #535353;
+}
+.userIcon{
+    span{
+        display: block;
+        width: 50px;
+        height: 50px;
+        background: #b488e0;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 29px;
+    }
+}
+h1{
+    color: #625858;
+    font-size: 24px;
+    margin: 0 0 2rem;
+}
+
+.form-cont{
+    background-color: #ededed;
+}
+
+.msgDiv{ 
+    h6{font-weight: bold;}
+    p{margin-bottom: 0;}
+}
+
+.header{
+    background-color: #7a77db;
+    color: #fff;
+    padding: 0.6rem 2rem;
+    a{color: #fff;}
+    .header_cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.nav{
+    .userInfo span{font-weight: bold;}
+    a{
+        &:hover{
+            text-decoration: none;
+            opacity: .5;
+        }
+    }
+}
+
+.divider{
+    display: flex;
+    justify-content: space-between;
+    .sidebar{width: 100%;
+        max-width: 350px;
+        height: 100%;
+    }
+    .content{width: 100%;
+        height: 100%;
+        .form-cont{
+            height: 100%;
+            position: relative;
+            .messageText{width: 100%;
+                padding: 0 1rem;
+                position: absolute;
+                bottom: 1rem;
+                left: 0;
+
+                .form-g{
+                    display: flex;
+                    justify-content: space-around;
+                    .f-control{
+                        &:first-child{
+                            width: 100%;
+                        }
+                        textarea{
+                            resize: none;
+                            margin-bottom: 0 !important;
+                            max-height: 58px;
+                            
+                        }
+                        button{
+                            height: 100%;
+                            width: 58px;
+                            font-size: 30px;
+                            margin-left: 1rem;
+                            background-color: #7a77db;
+                            border: #7a77db solid 1px;
+                            &:hover{
+                                background-color: #7a77db;
+                                opacity: .6;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

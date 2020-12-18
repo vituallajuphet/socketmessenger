@@ -1,0 +1,36 @@
+html{
+    
+} 
+*{
+    transition: all ease-in-out 200ms;
+}
+body{
+    background-color: #7a77db;
+    color: #fff;
+}
+
+.loginform{
+    max-width: 479px;
+    margin: 61px auto 20px;
+    background: #fff;
+    color: #494848;
+    padding: 30px;
+    border-radius: 3px;
+    h1{
+        font-size: 31px;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    input, button{
+        width: 100%;display: block;
+        margin-bottom: 1rem;
+    }
+    button{
+        background-color: #7a77db;
+        &:hover{
+            opacity: .5;
+            background-color: #7a77db;
+        }
+    }
+    
+}

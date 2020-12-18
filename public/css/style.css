@@ -1,38 +1,101 @@
-.msgDiv{ background: #cddcff; 
-    padding: 10px; 
-    border-radius: 5px; 
-    display: flex;  
-    justify-content: space-between; 
-    align-items: center;
-    margin: 0 0 14px;
-}
-.userIcon{}
-.userContent{
+ul {
+  list-style-type: none;
+  margin: 0; }
+
+* {
+  box-sizing: border-box; }
+
+.msgDiv {
+  background: #cddcff;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 14px; }
+
+.userContent {
+  width: 100%;
+  margin-left: 25px;
+  color: #535353; }
+
+.userIcon span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #b488e0;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 29px; }
+
+h1 {
+  color: #625858;
+  font-size: 24px;
+  margin: 0 0 2rem; }
+
+.form-cont {
+  background-color: #ededed; }
+
+.msgDiv h6 {
+  font-weight: bold; }
+
+.msgDiv p {
+  margin-bottom: 0; }
+
+.header {
+  background-color: #7a77db;
+  color: #fff;
+  padding: 0.6rem 2rem; }
+  .header a {
+    color: #fff; }
+  .header .header_cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.nav .userInfo span {
+  font-weight: bold; }
+
+.nav a:hover {
+  text-decoration: none;
+  opacity: .5; }
+
+.divider {
+  display: flex;
+  justify-content: space-between; }
+  .divider .sidebar {
     width: 100%;
-    margin-left: 25px;
-    color: #535353;
-}
-.userIcon span{
-    display: block;
-    width: 50px;
-    height: 50px;
-    background: #b488e0;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    font-size: 29px;
-}
-h1{
-    color: #625858;
-    font-size: 24px;
-    margin: 0 0 2rem;
-}
-
-.form-cont{
-    max-width: 600px; 
-    margin: 1rem auto; 
-    background-color: #ededed;
-}
-
-.msgDiv h6{font-weight: bold;}
-.msgDiv p{margin-bottom: 0;}
+    max-width: 350px;
+    height: 100%; }
+  .divider .content {
+    width: 100%;
+    height: 100%; }
+    .divider .content .form-cont {
+      height: 100%;
+      position: relative; }
+      .divider .content .form-cont .messageText {
+        width: 100%;
+        padding: 0 1rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 0; }
+        .divider .content .form-cont .messageText .form-g {
+          display: flex;
+          justify-content: space-around; }
+          .divider .content .form-cont .messageText .form-g .f-control:first-child {
+            width: 100%; }
+          .divider .content .form-cont .messageText .form-g .f-control textarea {
+            resize: none;
+            margin-bottom: 0 !important;
+            max-height: 58px; }
+          .divider .content .form-cont .messageText .form-g .f-control button {
+            height: 100%;
+            width: 58px;
+            font-size: 30px;
+            margin-left: 1rem;
+            background-color: #7a77db;
+            border: #7a77db solid 1px; }
+            .divider .content .form-cont .messageText .form-g .f-control button:hover {
+              background-color: #7a77db;
+              opacity: .6; }
