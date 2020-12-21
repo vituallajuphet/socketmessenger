@@ -25,6 +25,10 @@ body{
         width: 100%;display: block;
         margin-bottom: 1rem;
     }
+    input{
+        border: 1px solid #c4c3c3;
+        padding: 8px;
+    }
     button{
         background-color: #7a77db;
         &:hover{

@@ -20,6 +20,9 @@ body {
     width: 100%;
     display: block;
     margin-bottom: 1rem; }
+  .loginform input {
+    border: 1px solid #c4c3c3;
+    padding: 8px; }
   .loginform button {
     background-color: #7a77db; }
     .loginform button:hover {

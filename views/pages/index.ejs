@@ -9,41 +9,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header"> 
-        <div class="header_cont">
-            <div class="logo">
-                <a href="/"><i class="fa fa-paper-plane"></i> Petsenger</a>
-            </div>
-            <nav class="nav">
-                    <div class="userInfo">
-                    <span><i class="fa fa-user"></i> Juphet</span>
-                    </div>
-                <ul>
-                    <li><a href="/logout">Logout</a> </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="divider">
-        <div class="sidebar">
-            te
-        </div>
-        <div class="content">
-            <div class="form-cont">
-                <div class="messageText">
-                    <form action="#" method="post" id="sendForm">
-                        <div class="form-g">
-                            <div class="f-control">
-                                <textarea name="content" required class="form-control mb-4" placeholder="Your Message" name="message"></textarea>
-                            </div>
-                            <div class="f-control">
-                                <button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
+    <%- include('../includes/header'); -%>
+    <div title="<%= title%>" class="divider">
+        <%- include('../includes/sidebar'); -%>
+        <%- include('../includes/content'); -%>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.4/socket.io.js "></script>
     <script src="js/app.js"></script>

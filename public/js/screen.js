@@ -2,7 +2,7 @@ window.onload = () =>{
 
     let doc = document;
     let winheight = window.innerHeight;
-    const headerHeight = 24;
+    const headerHeight = 43;
 
     let divider = doc.querySelector(".divider");
 
